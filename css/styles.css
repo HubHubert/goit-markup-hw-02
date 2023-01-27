@@ -4,3 +4,21 @@ body {
 .link-webstudio {
   font-family: "Raleway", sans-serif;
 }
+.blue-web {
+  color: #2196f3;
+}
+.black-studio {
+  color: #000000;
+}
+.white-studio {
+  color: #ffffff;
+}
+.nav-list-item {
+  color: #212121;
+}
+.contact {
+  color: #757575;
+}
+.adress {
+  color: #ffffff;
+}
