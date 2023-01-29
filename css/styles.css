@@ -125,7 +125,7 @@ body {
   background: #2f303a;
 }
 .location {
-  font-style: normal;
+  text-decoration: none;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -134,7 +134,7 @@ body {
 }
 .location:hover,
 .location:focus {
-  text-decoration: underline;
+  text-decoration: none;
 }
 .portfolio-container {
   width: 1170px;
@@ -215,4 +215,103 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: #757575;
+}
+.buttons-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+.buttons-portfolio-item-one {
+  width: 121px;
+  height: 38px;
+  background: #f5f4fa;
+  border: 0;
+  border-radius: 4px;
+  color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  cursor: pointer;
+}
+.buttons-portfolio-item-two {
+  width: 93px;
+  height: 38px;
+  background: #f5f4fa;
+  color: #212121;
+  border: 0;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  cursor: pointer;
+}
+.buttons-portfolio-item-three {
+  width: 114px;
+  height: 38px;
+  background: #f5f4fa;
+  color: #212121;
+  border: 0;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  cursor: pointer;
+}
+.buttons-portfolio-item-four {
+  width: 91px;
+  height: 38px;
+  background: #f5f4fa;
+  color: #212121;
+  border: 0;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  cursor: pointer;
+}
+.buttons-portfolio-item-five {
+  width: 121px;
+  height: 38px;
+  background: #f5f4fa;
+  color: #212121;
+  border: 0;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  cursor: pointer;
+}
+.buttons-portfolio-item-one:hover,
+.buttons-portfolio-item-one:focus,
+.buttons-portfolio-item-two:hover,
+.buttons-portfolio-item-two:focus,
+.buttons-portfolio-item-three:hover,
+.buttons-portfolio-item-three:focus,
+.buttons-portfolio-item-four:hover,
+.buttons-portfolio-item-four:focus,
+.buttons-portfolio-item-five:hover,
+.buttons-portfolio-item-five:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
