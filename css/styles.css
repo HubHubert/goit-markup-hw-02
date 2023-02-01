@@ -13,7 +13,10 @@ body {
   font-family: "Roboto", sans-serif;
   background: var(--acent-color-for-containers);
 }
-.page-top {
+.container {
+  width: 1200px;
+}
+.top-page {
   background: var(--acent-color-for-containers);
 }
 
